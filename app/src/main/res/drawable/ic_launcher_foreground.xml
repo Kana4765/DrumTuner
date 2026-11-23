@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drumhead with 8 lugs and a waveform; drawn inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Head -->
+    <path
+        android:fillColor="#FF1E1E1E"
+        android:pathData="M26,54 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0 Z" />
+    <!-- Rim -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFB300"
+        android:strokeWidth="4"
+        android:pathData="M26,54 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0 Z" />
+    <!-- Lugs -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M50.5,26 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M70.3,34.2 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M78.5,54 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M70.3,73.8 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M50.5,82 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M30.7,73.8 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M22.5,54 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z
+            M30.7,34.2 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z" />
+    <!-- Waveform -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF00E676"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M38,54 C41,44 45,44 48,54 S55,64 58,54 S65,46 70,54" />
+</vector>
